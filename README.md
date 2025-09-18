@@ -1,6 +1,6 @@
 # Package Automator
 
-A tool to automatically update npm package versions and generate reports.
+A tool to automatically update npm and go package versions and generate reports.
 
 ## Features
 
