@@ -1,0 +1,26 @@
+{
+  "name": "package-automator",
+  "version": "1.0.0",
+  "description": "A tool to automatically update package versions and generate reports",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "version",
+    "automator",
+    "update"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.3.1",
+    "glob": "^11.0.3",
+    "semver": "^7.7.2"
+  }
+}

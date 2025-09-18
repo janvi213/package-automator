@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-11T10:01:44.196Z",
+  "summary": {
+    "repositoryCount": 3,
+    "totalPackages": 8,
+    "totalAutoUpdated": 0,
+    "totalManualUpdateNeeded": 1,
+    "totalCurrent": 0
+  },
+  "repositories": [
+    {
+      "path": "test-repo",
+      "name": "test-repo",
+      "type": "npm",
+      "packageCount": 5,
+      "autoUpdateCount": 0,
+      "manualUpdateCount": 0,
+      "currentCount": 0,
+      "autoUpdated": false,
+      "autoUpdatePackages": {},
+      "manualUpdatePackages": {},
+      "currentPackages": {}
+    },
+    {
+      "path": "test-repo2",
+      "name": "test-repo2",
+      "type": "npm",
+      "packageCount": 2,
+      "autoUpdateCount": 0,
+      "manualUpdateCount": 0,
+      "currentCount": 0,
+      "autoUpdated": false,
+      "autoUpdatePackages": {},
+      "manualUpdatePackages": {},
+      "currentPackages": {}
+    },
+    {
+      "path": "test-go-repo",
+      "name": "test-go-repo",
+      "type": "go",
+      "packageCount": 1,
+      "autoUpdateCount": 0,
+      "manualUpdateCount": 1,
+      "currentCount": 0,
+      "autoUpdated": false,
+      "autoUpdatePackages": {},
+      "manualUpdatePackages": {
+        "go": {
+          "from": "1.19",
+          "to": "1.22.0",
+          "updateType": "minor"
+        }
+      },
+      "currentPackages": {}
+    }
+  ]
+}
